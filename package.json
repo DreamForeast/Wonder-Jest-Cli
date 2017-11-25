@@ -1,7 +1,7 @@
 {
-  "name": "jest-cli",
+  "name": "wonder-jest-cli",
   "description": "Delightful JavaScript Testing.",
-  "version": "21.2.1",
+  "version": "0.0.1",
   "main": "build/jest.js",
   "dependencies": {
     "ansi-escapes": "^3.0.0",
