@@ -9,7 +9,7 @@
 
 
 
-function _load_jestConfig() {return _jestConfig = require('jest-config');}var _isCi;
+function _load_jestConfig() {return _jestConfig = require('wonder-jest-config');}var _isCi;
 function _load_isCi() {return _isCi = _interopRequireDefault(require('is-ci'));}function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 const check = exports.check = argv => {

@@ -17,7 +17,7 @@
 
 getJest;var _path;function _load_path() {return _path = _interopRequireDefault(require('path'));}var _chalk;function _load_chalk() {return _chalk = _interopRequireDefault(require('chalk'));}var _gracefulFs;function _load_gracefulFs() {return _gracefulFs = _interopRequireDefault(require('graceful-fs'));}var _jest;function _load_jest() {return _jest = _interopRequireDefault(require('../jest'));}function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function getJest(packageRoot) {
   const packageJSONPath = (_path || _load_path()).default.join(packageRoot, 'package.json');
-  const binPath = (_path || _load_path()).default.join(packageRoot, 'node_modules/jest-cli');
+  const binPath = (_path || _load_path()).default.join(packageRoot, 'node_modules/wonder-jest-cli');
   if ((_gracefulFs || _load_gracefulFs()).default.existsSync(binPath)) {
     /* $FlowFixMe */
     return require(binPath);
