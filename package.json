@@ -1,7 +1,7 @@
 {
   "name": "wonder-jest-cli",
   "description": "Delightful JavaScript Testing.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "build/jest.js",
   "dependencies": {
     "ansi-escapes": "^3.0.0",
@@ -14,7 +14,7 @@
     "istanbul-lib-instrument": "^1.4.2",
     "istanbul-lib-source-maps": "^1.1.0",
     "jest-changed-files": "^21.2.0",
-    "wonder-jest-config": "^0.0.1",
+    "wonder-jest-config": "latest",
     "jest-environment-jsdom": "^21.2.1",
     "jest-haste-map": "^21.2.0",
     "jest-message-util": "^21.2.1",
